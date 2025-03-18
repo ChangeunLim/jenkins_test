@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class abcController {
     @GetMapping("/test")
     public String test() {
-        String result = "테스트입니다.";
-        return result;
+        return "tset^^ :)";
     }
 }
