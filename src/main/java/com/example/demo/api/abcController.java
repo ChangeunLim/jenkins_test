@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class abcController {
     @GetMapping("/test")
     public String test() {
-        return "tset^^ :)";
+        return "tset12^^ :)";
     }
 }
