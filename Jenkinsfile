@@ -56,7 +56,7 @@ pipeline {
                                     ),
                                     sshTransfer(
                                         execCommand: '''
-                                            kubectl apply -f /home/test/k8s/backend-deployment.yml
+                                            kubectl apply -f /home/test/icg/k8s/backend-deployment.yml
                                         '''
                                     )
                                 ]
