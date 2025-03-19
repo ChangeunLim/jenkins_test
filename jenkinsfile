@@ -10,7 +10,7 @@ pipeline {
         stage('Git Clone') {
             steps{
                 echo "Cloning Repository"
-                git branch: 'main', url: "https://github.com/ChangeunLim/jenkins_test.git"
+                git branch: 'main', url: "https://github.com/ChangeunLim/jenkins_test"
             }
         }
         stage('Gradle Build') {
