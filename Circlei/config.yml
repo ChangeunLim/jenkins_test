@@ -1,5 +1,3 @@
-# This config was automatically generated from your source code
-# Stacks detected: cicd:jenkins:.,deps:java:.,tool:gradle:
 version: 2.1
 jobs:
   test-java:
@@ -18,3 +16,8 @@ jobs:
           root: .
           paths:
             - build/libs/*.jar
+workflows:
+  version: 2
+  build-and-deploy:
+    jobs:
+      - gradle-build
